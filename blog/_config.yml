@@ -1,0 +1,39 @@
+title: "Project X"
+tagline: "Building a drone from zero"
+description: >-
+  A public build log: designing, building, and flying a custom drone from
+  scratch, with the reasoning behind every decision written down as it happens.
+
+author:
+  name: "Joshua Gifford"
+
+# ---------------------------------------------------------------------------
+# url is your GitHub Pages domain. baseurl is injected by the build workflow
+# (--baseurl), so leave it empty here — do not hardcode the repo name.
+# ---------------------------------------------------------------------------
+url: ""
+baseurl: ""
+
+permalink: /:year/:month/:day/:title/
+timezone: America/New_York
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+feed:
+  path: /feed.xml
+
+# Newest first on the index page.
+paginate: false
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

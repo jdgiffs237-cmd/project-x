@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  {%- feed_meta -%}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛩️</text></svg>">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="site-title" href="{{ '/' | relative_url }}">
+      <span class="site-title-mark">Project&nbsp;X</span>
+    </a>
+    <nav class="site-nav">
+      <a href="{{ '/' | relative_url }}">Log</a>
+      <a href="{{ '/about/' | relative_url }}">About</a>
+      <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+  {{ content }}
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>{{ site.author.name }} · Project X · build log</p>
+    <p class="muted">Written as it happens. Entries are not edited after the fact — corrections are appended.</p>
+  </div>
+</footer>
+
+</body>
+</html>

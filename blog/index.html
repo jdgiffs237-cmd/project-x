@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<section class="intro">
+  <h1>Building a drone from zero.</h1>
+  <p>
+    I work on fixed-wing unmanned aircraft for a living. I have never built one
+    myself — and I have never flown anything that hovers.
+  </p>
+  <p>
+    This is the public log of closing that gap: a custom drone designed, built,
+    and flown from scratch. Every real decision gets written down here while the
+    reasoning is still fresh, including the ones I get wrong.
+  </p>
+
+  <div class="status-strip">
+    <span class="chip">Stage: <strong>Design</strong></span>
+    <span class="chip">Hardware purchased: <strong>None</strong></span>
+    <span class="chip">Flights: <strong>0</strong></span>
+    <span class="chip">Spent: <strong>$0</strong></span>
+  </div>
+</section>
+
+<ul class="post-list">
+  {%- for post in site.posts %}
+  <li>
+    {%- if post.stage %}<p class="eyebrow">{{ post.stage }}</p>{%- endif %}
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p class="entry-date">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+    </p>
+    <p>{{ post.summary | default: post.excerpt | strip_html | truncate: 220 }}</p>
+  </li>
+  {%- endfor %}
+</ul>

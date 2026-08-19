@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Jekyll
+blog/_site/
+blog/.jekyll-cache/
+blog/.jekyll-metadata
+blog/Gemfile.lock
+blog/vendor/
+
+# Editor
+.vscode/
+*.swp
+*.swo
