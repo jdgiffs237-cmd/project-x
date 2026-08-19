@@ -2,7 +2,7 @@
 
 > A place to learn what each part *is*, then record candidates. Don't order anything until the compatibility checklist at the bottom passes for every pair.
 
-**Last updated:** _(YYYY-MM-DD)_
+**Last updated:** 2026-08-19
 
 ---
 
@@ -25,7 +25,11 @@ Carbon fiber (usually) skeleton. Sized by **motor-to-motor diagonal in mm** or b
 
 | Frame | Size | Weight | Price | Pros | Cons |
 |---|---|---|---|---|---|
-| | | | | | |
+| **TBS Source One V5** ← pick | 5" | ~110 g | ~$35 | Open source, unibody arms sold individually, the most-documented 5" frame there is | Heavier than premium frames; no warranty |
+| ImpulseRC Apex Evo | 5" | ~95 g | ~$90 | Very crash-resistant, excellent build ergonomics | 2.5× the price to break |
+| Armattan Badger | 5" | ~100 g | ~$95 | Lifetime warranty on carbon | Price; overkill for a first build |
+
+**Choice & why:** Source One V5. The relevant property for a first build isn't strength, it's **cheap to replace** — a $35 frame with $8 arms means a broken arm is an annoyance, not an event. Revisit on build two.
 
 ---
 
@@ -38,7 +42,13 @@ Brushless. Labeled like `2207 1750KV`. First four digits = stator size (`22`mm w
 
 | Motor | Size/KV | Thrust @ prop/voltage | Price ea. | Notes |
 |---|---|---|---|---|
-| | | | | |
+| **iFlight XING2 2207 1855KV** ← pick | 2207 / 1855KV | ~1.5 kg @ 5.1×4.3×3, 6S | ~$22 | 6S standard, widely stocked, well-documented |
+| T-Motor Velox V3 2207 1950KV | 2207 / 1950KV | similar | ~$25 | Excellent, slightly pricier |
+| Emax ECO II 2207 1900KV | 2207 / 1900KV | similar | ~$15 | Budget option; shorter life |
+
+**Choice & why:** XING2 2207 1855KV, ×4. 2207 at ~1800–1950KV on 6S is the single most common 5" configuration in existence, which means every tuning guide and every troubleshooting thread already assumes it.
+
+> **The 6S-vs-4S fork:** picking 6S here constrains battery, ESC, and motor KV together. 6S is the current default — lower current for the same power, so thinner wire and cooler ESCs. Chosen deliberately, not by drift.
 
 ---
 
@@ -49,7 +59,10 @@ Translate flight controller commands into motor phase current. Rated in **amps**
 
 | ESC | Amp rating | 4-in-1? | Voltage (S) | Protocol (DShot?) | Price |
 |---|---|---|---|---|---|
-| | | | | | |
+| **SpeedyBee F405 V4 55A stack** ← pick | 55 A | Yes | 3–6S | DShot600 | ~$75 (with FC) |
+| SpeedyBee F7 V3 + 55A | 55 A | Yes | 3–6S | DShot600 | ~$80 |
+
+**Choice & why:** bought as a matched stack — see FC below. 55 A against a 2207/1855KV peak draw of ~30 A/motor is comfortable margin.
 
 ---
 
@@ -69,7 +82,11 @@ The brain: IMU + processor running firmware. The firmware choice is a **fork in 
 
 | FC | MCU | Firmware support | Mounting (30.5×30.5? 20×20?) | Price |
 |---|---|---|---|---|
-| | | | | |
+| **SpeedyBee F405 V4** ← pick | F405 | Betaflight, INAV | 30.5×30.5 | ~$75 as a stack with the 55 A ESC |
+
+**Choice & why:** ships as a stack, so the FC↔ESC interconnect is guaranteed to fit — the specific mistake the BOM warns about. Onboard Bluetooth means Betaflight can be configured from a phone, which matters more than it sounds for a first build: it removes the USB-driver-on-macOS failure mode from the very first power-up.
+
+**Firmware:** Betaflight — matches the Project One mission (manual sport flying). ArduPilot is Stage 1's problem, on different hardware.
 
 ---
 
@@ -87,7 +104,9 @@ Labeled like `4S 1500mAh 100C`. **S** = cells in series (voltage: 1S ≈ 3.7 V n
 
 | Battery | S | mAh | C | Weight | Connector (XT30/XT60?) | Price |
 |---|---|---|---|---|---|---|
-| | | | | | | |
+| **6S 1300 mAh 100C** ← pick | 6S | 1300 | 100C | ~200 g | XT60 | ~$35 |
+
+**Choice & why:** 6S 1300 mAh is the default pack for a 5" on 6S. **One** pack for Phase 1 — a bench test needs exactly one. Packs 2–4 are a Phase 2 purchase, and buying them later avoids storing charged LiPos for months while the build is in progress.
 
 ---
 
@@ -96,7 +115,15 @@ Transmitter (the thing in your hands) + receiver (on the drone). Protocols: **EL
 
 > The radio transmitter outlives every drone you build. Buy a decent one once.
 
-**Candidates:** ______
+**Candidates:**
+
+| Item | Price | Notes |
+|---|---|---|
+| RadioMaster Pocket ELRS (TX) | ~$65 | Phase 2. Genuinely good, genuinely cheap |
+| RadioMaster Boxer / TX16S (TX) | ~$150 / ~$200 | Phase 2. Buy-once-buy-well option |
+| Any ELRS 2.4 GHz receiver (RX) | ~$15 | Phase 2 |
+
+**Choice & why:** **ELRS** as the protocol — current default, open, cheap, long range. Specific transmitter deferred to Phase 2; the decision that matters now is only that it will be ELRS, so the receiver bought later matches.
 
 ---
 
@@ -105,14 +132,14 @@ Transmitter (the thing in your hands) + receiver (on the drone). Protocols: **EL
 - **Digital (DJI / HDZero / Walksnail)** — much better image, more money, ecosystem lock-in.
 - **None** — if flying line-of-sight or autonomously.
 
-**Candidates:** ______
+**Candidates:** deferred to Phase 3 — see [BOM](../Project%20One%20-%20Standard%20Drone/BOM%20Claude.md). Deliberately undecided: analog vs. digital is the most expensive reversible-only-by-rebuying choice in the project, and nothing about building the airframe depends on it.
 
 ---
 
 ### GPS / compass, telemetry, extras
 Needed for position hold, return-to-home, and any autonomy. Skip for pure sport builds.
 
-**Candidates:** ______
+**Candidates:** none — out of scope for Project One (Betaflight sport build). This is Stage 1's territory, on ArduPilot hardware.
 
 ---
 

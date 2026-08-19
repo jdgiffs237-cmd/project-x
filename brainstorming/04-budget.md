@@ -119,11 +119,9 @@ A starting split, not a commitment. Revise once the mission in [01-mission-and-u
 
 ## Purchase log
 
-> Record what you actually bought, when, and from where. Useful for warranty claims, reorders, and for finding out where the money really went.
-
-| Date | Item | Vendor | Cost | Order # | Arrived? |
-|---|---|---|---|---|---|
-| | | | | | |
+> **Moved.** Actual spend is tracked in [RECEIPTS.md](../RECEIPTS.md) — receipts, order
+> numbers, returns, and running totals. This file stays about what's *planned*;
+> that one records what was *paid*.
 
 ---
 
