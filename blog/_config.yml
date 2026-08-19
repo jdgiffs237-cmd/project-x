@@ -27,7 +27,7 @@ baseurl: ""
 # Left empty, the comments block falls back to a link to the contact page.
 # ---------------------------------------------------------------------------
 cusdis:
-  app_id: ""
+  app_id: "c30e7086-1bcb-4b5a-a2d7-b3ec22d996db"
   host: "https://cusdis.com"
 
 permalink: /:year/:month/:day/:title/
