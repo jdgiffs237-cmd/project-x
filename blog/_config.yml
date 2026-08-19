@@ -6,6 +6,13 @@ description: >-
 
 author:
   name: "Joshua Gifford"
+  email: "joshuagifford237@gmail.com"
+
+# Shown on /contact/ and in the site footer. Change here, not in the templates.
+contact:
+  email: "joshuagifford237@gmail.com"
+  phone: "610-389-5374"
+  phone_href: "+16103895374"
 
 # ---------------------------------------------------------------------------
 # url is your GitHub Pages domain. baseurl is injected by the build workflow

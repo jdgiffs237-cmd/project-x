@@ -20,6 +20,7 @@
     <nav class="site-nav">
       <a href="{{ '/' | relative_url }}">Log</a>
       <a href="{{ '/about/' | relative_url }}">About</a>
+      <a href="{{ '/contact/' | relative_url }}">Contact</a>
       <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
     </nav>
   </div>
@@ -32,6 +33,11 @@
 <footer class="site-footer">
   <div class="wrap">
     <p>{{ site.author.name }} · Project X · build log</p>
+    <p class="footer-contact">
+      <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a>
+      <span class="sep" aria-hidden="true">·</span>
+      <a href="tel:{{ site.contact.phone_href }}">{{ site.contact.phone }}</a>
+    </p>
     <p class="muted">Written as it happens. Entries are not edited after the fact — corrections are appended.</p>
   </div>
 </footer>

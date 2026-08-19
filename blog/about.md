@@ -45,3 +45,8 @@ Things I intend to write about:
 
 Design stage. No hardware purchased, no airframe locked. The survey work is
 done; the mission definition is not.
+
+## Get in touch
+
+If you've built one of these, spotted an error, or are starting from zero
+yourself, I want to hear it — [contact details are here]({{ '/contact/' | relative_url }}).

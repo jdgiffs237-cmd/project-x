@@ -11,7 +11,9 @@ A personal project to design, build, and fly a custom drone from scratch.
 
 ```
 Project X/
+├── 00-BLOG-LINK.md             ← the live blog URL, sorts first so it's findable
 ├── README.md
+├── RECEIPTS.md                 ← actual spend: receipts, orders, returns
 ├── brainstorming/              ← active work
 │   ├── README.md
 │   ├── 01-mission-and-use-case.md
@@ -50,6 +52,8 @@ Project X/
 
 | Folder | What lives here | Active now? |
 |---|---|---|
+| [00-BLOG-LINK.md](00-BLOG-LINK.md) | The live blog URL and how publishing works. Sorts first on purpose — the link should never need hunting for. | **Yes — live** |
+| [RECEIPTS.md](RECEIPTS.md) | Every purchase actually made — receipts, order numbers, returns, running total against the $10,000 ceiling. Planned spend lives in [04-budget.md](brainstorming/04-budget.md). | **Yes — live** |
 | [brainstorming/](brainstorming/) | Thinking space — mission, requirements, component research, budget, open questions, decision log, regulatory checklist. | **Yes — start here** |
 | [brainstorming/drone-classes/](brainstorming/drone-classes/) | Survey of unmanned aircraft by **DoD UAS Group (1–5)**, with reference images. Each group folder holds its own writeup, images, and image credits. | **Yes — current focus** |
 | [brainstorming/ideas/](brainstorming/ideas/) | Optional ideas, one file per idea. A holding pen so feature creep doesn't leak into the v1 build. | As needed |
