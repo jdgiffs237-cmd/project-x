@@ -1,0 +1,40 @@
+{%- comment -%}
+  Cusdis comments. No account needed to post — just a name.
+
+  Comments are held for approval: nothing appears publicly until you approve
+  it from the Cusdis dashboard. See 00-BLOG-LINK.md in the repo root.
+
+  Until site.cusdis.app_id is filled in, this block quietly falls back to a
+  pointer at the contact page rather than rendering a broken widget.
+{%- endcomment -%}
+
+<section class="comments" id="comments">
+  <h2 class="comments-title">Comments</h2>
+
+  {%- if site.cusdis.app_id and site.cusdis.app_id != "" %}
+  <p class="comments-note">
+    No account needed — leave a name and say your piece. Comments are held for
+    approval before they show up, so there may be a day's lag.
+  </p>
+
+  <div id="cusdis_thread"
+    data-host="{{ site.cusdis.host | default: 'https://cusdis.com' }}"
+    data-app-id="{{ site.cusdis.app_id }}"
+    data-page-id="{{ page.url }}"
+    data-page-url="{{ page.url | absolute_url }}"
+    data-page-title="{{ page.title | xml_escape }}"
+    data-theme="auto"></div>
+  <script async defer src="{{ site.cusdis.host | default: 'https://cusdis.com' }}/js/cusdis.es.js"></script>
+
+  <noscript>
+    <p class="comments-note">
+      Comments need JavaScript. Without it, <a href="{{ '/contact/' | relative_url }}">email or text me</a> instead.
+    </p>
+  </noscript>
+  {%- else %}
+  <p class="comments-note">
+    Comments aren't switched on yet. Until they are,
+    <a href="{{ '/contact/' | relative_url }}">email or text me</a> — I read all of it.
+  </p>
+  {%- endif %}
+</section>

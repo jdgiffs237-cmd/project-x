@@ -21,6 +21,8 @@ layout: default
 
 </article>
 
+{% include comments.html %}
+
 <nav class="post-nav">
   {%- if page.previous %}
   <a class="post-nav-item" href="{{ page.previous.url | relative_url }}">

@@ -21,6 +21,40 @@ usually live within a couple of minutes. There is no manual publish step.
 
 To write a new entry, see [blog/README.md](blog/README.md).
 
+## Comments
+
+Readers can comment on any post — **no account needed**, they just type a name.
+Comments are powered by [Cusdis](https://cusdis.com) and are **held for approval**:
+nothing appears publicly until you approve it.
+
+| | |
+|---|---|
+| **Moderate comments** | https://cusdis.com/dashboard |
+
+### Switching them on (one-time, ~3 minutes)
+
+Comments are wired up but dormant until you do this:
+
+1. Sign up at **https://cusdis.com** (free tier is fine).
+2. Create a website in the dashboard. Name it `Project X`, URL
+   `https://jdgiffs237-cmd.github.io/project-x/`.
+3. Copy the **App ID** it gives you (a long uuid).
+4. Paste it into [blog/_config.yml](blog/_config.yml):
+
+   ```yaml
+   cusdis:
+     app_id: "paste-the-uuid-here"
+   ```
+
+5. Commit and push. The comment box appears on every post within a couple of
+   minutes.
+
+Until step 4 is done, the comments section shows a line pointing readers at the
+contact page instead — nothing looks broken.
+
+**Turn on email notifications** in the Cusdis dashboard, or you won't know a
+comment is waiting for approval.
+
 ## Contact shown on the site
 
 Both are on the contact page and in the footer of every page:

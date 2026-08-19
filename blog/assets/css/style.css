@@ -339,6 +339,39 @@ body {
   white-space: nowrap;
 }
 
+/* --- comments ------------------------------------------------------------- */
+
+.comments {
+  border-top: 1px solid var(--rule);
+  padding-top: 1.75rem;
+  margin-bottom: 3rem;
+}
+.comments-title {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  letter-spacing: -0.01em;
+  margin: 0 0 .5rem;
+}
+.comments-note {
+  color: var(--ink-muted);
+  font-size: .88rem;
+  margin: 0 0 1.25rem;
+  max-width: 34rem;
+}
+.comments-note a {
+  color: var(--accent);
+  text-underline-offset: 2px;
+}
+.comments-note a:hover { color: var(--accent-dim); }
+
+/* the widget renders in an iframe it sizes itself — just give it room */
+#cusdis_thread { margin-top: .25rem; }
+#cusdis_thread iframe {
+  width: 100%;
+  border: 0;
+  color-scheme: normal;
+}
+
 /* --- post nav ------------------------------------------------------------- */
 
 .post-nav {

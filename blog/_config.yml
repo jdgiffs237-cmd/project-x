@@ -18,8 +18,17 @@ contact:
 # url is your GitHub Pages domain. baseurl is injected by the build workflow
 # (--baseurl), so leave it empty here — do not hardcode the repo name.
 # ---------------------------------------------------------------------------
-url: ""
+url: "https://jdgiffs237-cmd.github.io"
 baseurl: ""
+
+# ---------------------------------------------------------------------------
+# Comments (Cusdis) — readers post with just a name, no account required.
+# Paste the App ID from https://cusdis.com/dashboard here to switch them on.
+# Left empty, the comments block falls back to a link to the contact page.
+# ---------------------------------------------------------------------------
+cusdis:
+  app_id: ""
+  host: "https://cusdis.com"
 
 permalink: /:year/:month/:day/:title/
 timezone: America/New_York

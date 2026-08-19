@@ -17,6 +17,10 @@ Things worth writing to me about:
 - **You're starting from zero too.** Comparing notes beats making the same
   mistake twice in two places.
 
+If it's about a specific entry, the comment box at the bottom of that post is
+often the better place — no account needed, and the next person reading it gets
+the benefit of your answer too.
+
 ## How to reach me
 
 <ul class="contact-list">
