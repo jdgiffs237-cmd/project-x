@@ -30,13 +30,12 @@ jobs:
           bundler-cache: true
           working-directory: blog
 
+      # Pages is already enabled on this repo with build_type=workflow.
+      # Do not add `enablement: true` here — the default GITHUB_TOKEN is not
+      # permitted to create the Pages site, and it fails the whole job.
       - name: Configure Pages
         id: pages
         uses: actions/configure-pages@v5
-        with:
-          # Turns Pages on for the repo automatically on the first run,
-          # so there's no manual step in Settings → Pages.
-          enablement: true
 
       - name: Build site
         working-directory: blog
