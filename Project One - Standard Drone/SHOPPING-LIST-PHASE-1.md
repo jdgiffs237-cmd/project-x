@@ -3,8 +3,9 @@
 **Created:** 2026-08-19 · **Stock + prices verified 2026-08-22, motors and
 battery re-checked 2026-08-26**
 **Goal:** motors spinning on command, props off, frame clamped to the bench
-**Est. total:** **~$640–670** (was ~$530) — the spread is the stack; see the note
-on line item below · **Log actual spend in [RECEIPTS.md](../RECEIPTS.md)**
+**Est. total:** **~$625–655** (was ~$530) — the spread is the stack; see that line
+item · **$60.95 spent, motors bought** → [PARTS-BOUGHT.md](PARTS-BOUGHT.md) ·
+[RECEIPTS.md](../RECEIPTS.md)
 
 > **⚠ READ THIS FIRST — the original list is stale.** Three of the four core
 > parts were out of stock or discontinued when re-checked on 2026-08-22, and the
@@ -23,7 +24,7 @@ on line item below · **Log actual spend in [RECEIPTS.md](../RECEIPTS.md)**
 
 ---
 
-## The aircraft — ~$242–274
+## The aircraft — ~$230–262
 
 Stock verified 2026-08-22 against live vendor inventory; motors re-checked
 2026-08-26.
@@ -31,9 +32,7 @@ Stock verified 2026-08-22 against live vendor inventory; motors re-checked
 | Part | Description | Link |
 |---|---|---|
 | **Frame** | TBS Source One **V6**, 5" kit. $35.85 — ✅ in stock at RMRC. *(RMRC's URL still says "v5" — the page title and product are V6. Not the wrong link.)* | https://www.readymaderc.com/products/details/85715-tbs-source-one-v5-5-inch-kit |
-| **Motors** | EMAX ECO II 2207 **1900KV**. **Sold singly — order 4.** ×4 @ $15.99 = $63.96 — ✅ in stock at Pyrodrone. All 4 identical; rotation is set in software | https://pyrodrone.com/products/emax-eco-ii-2207-stator-motor-for-5-propeller-racing-and-freestyle-craft-1900kv |
-| *(motor backup)* | Same motor at RDQ, $19.49 ea, 103 in stock — if Pyrodrone sells out | https://www.racedayquads.com/products/emax-eco-ii-series-2207-1900kv-motor |
-| *(alt motors)* | iFlight XING2 **2306 1755KV**, ×4 @ $27.99 = $112 — ✅ in stock. Better build quality, not a required upgrade. Note 1755KV sits just *below* the documented 1800–1950 range, and 2306 is a taller stator — a slightly different feel, not a drop-in equivalent | https://pyrodrone.com/products/iflight-xing2-2306-1755kv-motor |
+| ~~**Motors**~~ | ✅ **BOUGHT 2026-08-26** — EMAX ECO II 2207 **1900KV** ×4 @ **$12.99** = $51.96 (+$8.99 shipping) **direct from EMAX USA**, under both retailers. Logged in [PARTS-BOUGHT.md](PARTS-BOUGHT.md) | https://shop.emax-usa.com/products/eco-ii-2207-brushless-motor-1700kv-1900kv-2400kv |
 | **FC + ESC stack** | SpeedyBee F405 **V5** OX32 55A, 30×30, Bluetooth. ✅ in stock at RMRC. ⚠️ **Price unresolved: $93.99 MSRP, but RMRC's listing read $126.05.** Check the cart before committing, and price-shop GetFPV/Pyrodrone — this is the single biggest swing in the budget. **Read the OX32 note below.** | https://www.readymaderc.com/products/details/86580-speedybee-f405-v5-ox32-55a-30x30-model-aircraft-fc-esc-stack |
 | **Capacitor** | 1000 µF 35 V low-ESR, across the battery pads. ~$8 | https://www.amazon.com/s?k=1000uf+35v+low+esr+capacitor+fpv |
 | **XT60 pigtail** | 12 AWG, male. ~$8 | https://www.amazon.com/s?k=XT60+male+pigtail+12awg+silicone |
