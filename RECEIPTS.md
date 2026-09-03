@@ -1,6 +1,6 @@
 # Receipts — Money Actually Spent
 
-**Last updated:** 2026-08-29 · **Budget ceiling:** $10,000 ([04-budget.md](brainstorming/04-budget.md))
+**Last updated:** 2026-09-03 · **Budget ceiling:** $10,000 ([04-budget.md](brainstorming/04-budget.md))
 
 > Records what was **actually paid**; the budget file records what was *planned*. When they disagree, this file is right.
 > **This repo is public** — log order numbers and vendors, never card numbers, addresses, or logins.
@@ -28,17 +28,19 @@ One row per order, newest first. `Order #` blank = fill from confirmation email.
 
 | Date | Vendor | Items | Subtotal | Ship + tax | **Total** | Order # | Status |
 |---|---|---|---|---|---|---|---|
-| 08-29 | MEPS King | Matek H743-Slim V4 FC ×1 | $125.99 | free / — | **$125.99** | | ordered |
-| 08-29 | RaceDayQuads | Skystars KO60II 60A AM32 4-in-1 ESC ×1 ($58.49); HOTA D6 Pro 325W charger ×1 ($149.99) | $208.48 | free / $12.51 | **$220.99** | PNQ25YZPH | ordered, ETA 09-03 |
+| 08-29 | MEPS King | Matek H743-Slim V4 FC ×1 | $125.99 | free / — | **$125.99** | | in transit |
+| 08-29 | RaceDayQuads | Skystars KO60II 60A AM32 4-in-1 ESC ×1 ($58.49); HOTA D6 Pro 325W charger ×1 ($149.99) | $208.48 | free / $12.51 | **$220.99** | PNQ25YZPH | in transit, ETA 09-03 |
 | 08-29 | Amazon | AiXun T3A 200W soldering station, **T12 handle** + 3 tips ×1 | $128.00 | free / $7.68 | **$135.68** | 112-5817558-1657853 | ordered, ETA 09-10–17 |
-| 08-29 | Amazon | Consumables & tools bundle, 13 items (cap, XT60 pigtail, heat shrink, threadlocker, zip ties, M3 screws, LiPo bag, solder, flux, wick, smoke stopper, multimeter, hex drivers, safety glasses) | $144.25 (after $1.50 coupon) | free / $8.66 | **$152.91** | 112-0737547-2133806 | ordered |
-| 08-29 | RMRC | TBS Source One **V6** 5" frame kit ×1 | $35.85 | $6.68 / not quoted | **$42.53** + tax? | | ordered |
-| 08-29 | RaceDayQuads | GNB 6S 1530 mAh 160C LiPo, XT60 ×1 | $44.99 | $10.60 / $3.33 | **$58.92** | | ordered |
-| 08-26 | EMAX USA | ECO II 2207 1900KV motor ×4 @ $12.99 | $51.96 | $8.99 / $0 | **$60.95** | | ordered (Shop Pay) |
+| 08-29 | Amazon | Consumables & tools bundle, 13 items (cap, XT60 pigtail, heat shrink, threadlocker, zip ties, M3 screws, LiPo bag, solder, flux, wick, smoke stopper, multimeter, hex drivers, safety glasses) | $144.25 (after $1.50 coupon) | free / $8.66 | **$152.91** | 112-0737547-2133806 | **arrived 09-03** |
+| 08-29 | RMRC | TBS Source One **V6** 5" frame kit ×1 | $35.85 | $6.68 / not quoted | **$42.53** + tax? | | **arrived 09-03** |
+| 08-29 | RaceDayQuads | GNB 6S 1530 mAh 160C LiPo, XT60 ×1 | $44.99 | $10.60 / $3.33 | **$58.92** | | **arrived 09-03** |
+| 08-26 | EMAX USA | ECO II 2207 1900KV motor ×4 @ $12.99 | $51.96 | $8.99 / $0 | **$60.95** | | **arrived 09-03** (Shop Pay) |
 
 **Phase 1 purchasing is complete** — every part needed for bench-alive is ordered.
 
 ## On-arrival checks
+
+**Arrived 2026-09-03:** motors, frame, battery, and the Amazon tools bundle (loctite, multimeter, hex drivers, LiPo bag, solder/flux/wick, heat shrink, XT60 pigtail, capacitor, smoke stopper). **Not yet confirmed in the bundle box: M3 screws, safety glasses** — check before assuming.
 
 - **Soldering station (Sep 10–17) is the schedule-critical item.** It's the T12 handle, not the T245 the list specified — use a large chisel tip and run ~380–400 °C for the ESC battery pads and 12 AWG XT60 leads.
 - **Motor screw length vs. the frame's 6 mm arms:** ~arm thickness + 5 mm. Too long kills the motor; too short loses one in flight. The M3×10/12/14 in the frame kit are standoff hardware, not motor screws.
