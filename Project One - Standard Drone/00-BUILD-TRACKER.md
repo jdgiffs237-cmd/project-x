@@ -2,16 +2,16 @@
 
 **Live page:** https://claude.ai/code/artifact/37ebf69d-c8ca-4cd8-bf25-904359ae8ecf
 
-*Updated 2026-09-11*
+*Updated 2026-09-11 (evening — iron returned)*
 
 ## Where things stand
 
 | | |
 |---|---|
 | Parts bought | **20 / 20 — done** |
-| Arrived | **6 of 7 orders** — everything except the flight controller |
-| Spent | **$797.97** (7 orders) |
-| Waiting on | **Flight controller (Matek, from MEPS King)** — the last box |
+| Arrived | Everything except the FC — but the iron arrived **defective** |
+| Spent | **$855.20** (8 orders; $135.68 AiXun refund pending) |
+| Waiting on | **Flight controller** + **replacement soldering iron (YIHUA 939D+)** |
 
 ## What's where
 
@@ -19,16 +19,17 @@
 |---|---|
 | Frame, motors ×4, battery, tools bundle | Arrived Sep 3 |
 | ESC + charger | **Arrived** |
-| Soldering iron (AiXun T3A) | **Arrived Sep 11** |
+| ~~Soldering iron (AiXun T3A)~~ | **Defective — being returned** ($135.68 refund pending) |
+| Soldering iron (YIHUA 939D+, 75W) | **Ordered Sep 11**, $57.23 |
 | Flight controller (Matek H743) | **In transit — watch for a customs charge on delivery** |
 | M3 screws + safety glasses | Still unconfirmed in the Amazon bundle box |
 
-## You can start soldering — no need to wait for the FC
+## Soldering queue — ready the moment the YIHUA lands
 
-The FC connects to the ESC by a plug-in cable, so these joints don't need it:
+The FC connects to the ESC by a plug-in cable, so none of these joints wait on it:
 
 1. **Motors → ESC pads** (4 motors × 3 wires). Trim wire to arm length first.
-2. **XT60 pigtail → ESC battery pads** — the fat 12 AWG joints. Large chisel tip, 380–400 °C.
+2. **XT60 pigtail → ESC battery pads** — the fat 12 AWG joints. The YIHUA is 75W, so: **largest chisel tip, max temperature**, and give the joint time to heat.
 3. **Capacitor across the battery pads** — read the can first: **1000 µF 35 V**, stripe = negative.
 4. Heat shrink everything as you go. *No heat gun needed: the iron's barrel held near the tubing, or the lower half of a lighter flame kept moving, shrinks it fine.*
 
