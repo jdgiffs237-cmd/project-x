@@ -2,43 +2,46 @@
 
 **Live page:** https://claude.ai/code/artifact/37ebf69d-c8ca-4cd8-bf25-904359ae8ecf
 
-*Updated 2026-09-03*
+*Updated 2026-09-11*
 
 ## Where things stand
 
 | | |
 |---|---|
 | Parts bought | **20 / 20 — done** |
-| Arrived | **4 of 7 orders** — frame, motors, battery, Amazon tools bundle |
+| Arrived | **6 of 7 orders** — everything except the flight controller |
 | Spent | **$797.97** (7 orders) |
-| Waiting on | **Soldering iron — arrives Sep 10–17** (the blocker) |
+| Waiting on | **Flight controller (Matek, from MEPS King)** — the last box |
 
 ## What's where
 
 | Item | Status |
 |---|---|
-| Frame, motors ×4, battery | **Arrived Sep 3** |
-| Tools bundle (loctite, multimeter, hex drivers, LiPo bag, solder/flux/wick, heat shrink, XT60 pigtail, capacitor, smoke stopper) | **Arrived Sep 3** — M3 screws + safety glasses not yet confirmed in the box |
-| ESC + charger | In transit, ETA Sep 3 |
-| Flight controller (Matek) | In transit |
-| Soldering iron | Sep 10–17 |
+| Frame, motors ×4, battery, tools bundle | Arrived Sep 3 |
+| ESC + charger | **Arrived** |
+| Soldering iron (AiXun T3A) | **Arrived Sep 11** |
+| Flight controller (Matek H743) | **In transit — watch for a customs charge on delivery** |
+| M3 screws + safety glasses | Still unconfirmed in the Amazon bundle box |
 
-## Do these now that boxes are here
+## You can start soldering — no need to wait for the FC
 
-1. Install **Betaflight Configurator** + **ImpulseRC Driver Fixer**.
-2. Compare the **Matek** and **Skystars** 8-pin pinout pictures. Pins must match.
-3. **Measure motor screw length against the frame's 6 mm arms** — target arm + 5 mm.
-4. Confirm the **M3 screws and safety glasses** are in the Amazon box.
-5. Read the capacitor can: must say **1000 µF 35 V**.
-6. ESC arrives → check box for a capacitor + XT60 lead (keep as spares).
-7. Battery goes **straight into the LiPo bag**. Don't charge until the charger arrives.
+The FC connects to the ESC by a plug-in cable, so these joints don't need it:
 
-## When the iron lands
+1. **Motors → ESC pads** (4 motors × 3 wires). Trim wire to arm length first.
+2. **XT60 pigtail → ESC battery pads** — the fat 12 AWG joints. Large chisel tip, 380–400 °C.
+3. **Capacitor across the battery pads** — read the can first: **1000 µF 35 V**, stripe = negative.
+4. Heat shrink everything as you go. *No heat gun needed: the iron's barrel held near the tubing, or the lower half of a lighter flame kept moving, shrinks it fine.*
 
-Solder → continuity check → smoke stopper → spin motors in Betaflight (props off).
-**That's bench-alive.**
+**Check the ESC box first** — if it includes its own capacitor and XT60 lead, use whichever is better and keep the spares.
 
-*Heat shrink tip: no heat gun needed — the barrel of the soldering iron or the lower half of a lighter flame, kept moving, shrinks it fine.*
+## When the FC lands
+
+1. **Compare the Matek and Skystars 8-pin pinout diagrams before plugging anything.** Pin order is not standard across brands.
+2. Continuity-check every wire with the multimeter.
+3. First power-up **through the smoke stopper**, no props.
+4. Spin motors from Betaflight, props off. **That's bench-alive.**
+
+Meanwhile: install **Betaflight Configurator** + **ImpulseRC Driver Fixer** if not done yet.
 
 ## Two open questions (your call)
 
