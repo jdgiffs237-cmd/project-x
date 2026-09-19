@@ -2,16 +2,16 @@
 
 **Live page:** https://claude.ai/code/artifact/37ebf69d-c8ca-4cd8-bf25-904359ae8ecf
 
-*Updated 2026-09-11 (evening — iron returned)*
+*Updated 2026-09-19*
 
 ## Where things stand
 
 | | |
 |---|---|
 | Parts bought | **20 / 20 — done** |
-| Arrived | Everything except the FC — but the iron arrived **defective** |
-| Spent | **$855.20** (8 orders; $135.68 AiXun refund pending) |
-| Waiting on | **Flight controller** + **replacement soldering iron (YIHUA 939D+)** |
+| Arrived | Everything except the FC and the replacement iron |
+| Spent | **$936.19** (9 orders; $261.67 in refunds pending — AiXun + Matek) |
+| Waiting on | **SkyStars H743 HD FC** (ETA Sep 22–25) + **YIHUA 939D+ iron** |
 
 ## What's where
 
@@ -21,7 +21,8 @@
 | ESC + charger | **Arrived** |
 | ~~Soldering iron (AiXun T3A)~~ | **Defective — being returned** ($135.68 refund pending) |
 | Soldering iron (YIHUA 939D+, 75W) | **Ordered Sep 11**, $57.23 |
-| Flight controller (Matek H743) | **In transit — watch for a customs charge on delivery** |
+| ~~Flight controller (Matek H743)~~ | **Cancelled Sep 19** — stuck in transit, vendor unresponsive; $125.99 refund pending |
+| Flight controller (SkyStars H743 HD, single gyro) | **Ordered Sep 19**, $80.99, Amazon/GetFPV — ETA Sep 22–25 |
 | M3 screws + safety glasses | Still unconfirmed in the Amazon bundle box |
 
 ## Soldering queue — ready the moment the YIHUA lands
@@ -37,7 +38,9 @@ The FC connects to the ESC by a plug-in cable, so none of these joints wait on i
 
 ## When the FC lands
 
-1. **Compare the Matek and Skystars 8-pin pinout diagrams before plugging anything.** Pin order is not standard across brands.
+**Power it on the day it arrives** — the AiXun taught that lesson.
+
+1. **Compare the FC and ESC 8-pin pinout diagrams before plugging anything.** Both are now Skystars — the factory stacks this FC on the KO60 — so they should match, but the check costs two minutes and a mistake costs both boards.
 2. Continuity-check every wire with the multimeter.
 3. First power-up **through the smoke stopper**, no props.
 4. Spin motors from Betaflight, props off. **That's bench-alive.**
