@@ -9,9 +9,9 @@
 | | |
 |---|---|
 | Parts bought | **20 / 20 — done** |
-| Arrived | Everything except the FC and the replacement iron |
+| Arrived | Everything except the FC — **build started 2026-09-19** |
 | Spent | **$936.19** (9 orders; $261.67 in refunds pending — AiXun + Matek) |
-| Waiting on | **SkyStars H743 HD FC** (ETA Sep 22–25) + **YIHUA 939D+ iron** |
+| Waiting on | **SkyStars H743 HD FC only** (ETA Sep 22–25) |
 
 ## What's where
 
@@ -20,12 +20,14 @@
 | Frame, motors ×4, battery, tools bundle | Arrived Sep 3 |
 | ESC + charger | **Arrived** |
 | ~~Soldering iron (AiXun T3A)~~ | **Defective — being returned** ($135.68 refund pending) |
-| Soldering iron (YIHUA 939D+, 75W) | **Ordered Sep 11**, $57.23 |
+| Soldering iron (YIHUA 939D+, 75W) | **Arrived Sep 19** — building |
 | ~~Flight controller (Matek H743)~~ | **Cancelled Sep 19** — stuck in transit, vendor unresponsive; $125.99 refund pending |
 | Flight controller (SkyStars H743 HD, single gyro) | **Ordered Sep 19**, $80.99, Amazon/GetFPV — ETA Sep 22–25 |
 | M3 screws + safety glasses | Still unconfirmed in the Amazon bundle box |
 
-## Soldering queue — ready the moment the YIHUA lands
+## Soldering queue — GO (iron arrived Sep 19)
+
+Step-by-step work instructions live in [Routing/](Routing/) — start with WI-01.
 
 The FC connects to the ESC by a plug-in cable, so none of these joints wait on it:
 

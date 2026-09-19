@@ -32,7 +32,7 @@ One row per order, newest first. `Order #` blank = fill from confirmation email.
 | 09-19 | Amazon (sold by GetFPV) | SkyStars H743 HD FC, 30×30, single gyro ×1 | $80.99 | free / — | **$80.99** | *(fill from email)* | ordered, ETA 09-22–25 |
 | 08-29 | RaceDayQuads | Skystars KO60II 60A AM32 4-in-1 ESC ×1 ($58.49); HOTA D6 Pro 325W charger ×1 ($149.99) | $208.48 | free / $12.51 | **$220.99** | PNQ25YZPH | **arrived** |
 | 08-29 | Amazon | ~~AiXun T3A 200W soldering station~~ ×1 | $128.00 | free / $7.68 | **$135.68** | 112-5817558-1657853 | **DEFECTIVE — returning** |
-| 09-11 | Amazon | YIHUA 939D+ digital soldering station, 75W, 200–480 °C, ESD-safe ×1 | — | — | **$57.23** | *(fill from email)* | ordered |
+| 09-11 | Amazon | YIHUA 939D+ digital soldering station, 75W, 200–480 °C, ESD-safe ×1 | — | — | **$57.23** | *(fill from email)* | **arrived 09-19** |
 | 08-29 | Amazon | Consumables & tools bundle, 13 items (cap, XT60 pigtail, heat shrink, threadlocker, zip ties, M3 screws, LiPo bag, solder, flux, wick, smoke stopper, multimeter, hex drivers, safety glasses) | $144.25 (after $1.50 coupon) | free / $8.66 | **$152.91** | 112-0737547-2133806 | **arrived 09-03** |
 | 08-29 | RMRC | TBS Source One **V6** 5" frame kit ×1 | $35.85 | $6.68 / not quoted | **$42.53** + tax? | | **arrived 09-03** |
 | 08-29 | RaceDayQuads | GNB 6S 1530 mAh 160C LiPo, XT60 ×1 | $44.99 | $10.60 / $3.33 | **$58.92** | | **arrived 09-03** |
@@ -44,7 +44,7 @@ One row per order, newest first. `Order #` blank = fill from confirmation email.
 
 **Arrived 2026-09-03:** motors, frame, battery, and the Amazon tools bundle (loctite, multimeter, hex drivers, LiPo bag, solder/flux/wick, heat shrink, XT60 pigtail, capacitor, smoke stopper). **Not yet confirmed in the bundle box: M3 screws, safety glasses** — check before assuming.
 
-**Arrived by 2026-09-11:** ESC + charger (PNQ25YZPH) and the AiXun soldering station — which was **defective on arrival and is being returned**. A YIHUA 939D+ (75W, half the price) is ordered as the replacement. In transit: replacement iron + the **SkyStars H743 HD FC** ($80.99, ordered 09-19, ETA Sep 22–25) — which replaces the cancelled Matek. Same brand as the KO60II ESC, so the 8-pin harness should match; official ArduPilot (`SkystarsH7HD`), Betaflight and INAV targets, same STM32H743 with 2 MB flash, so Lua scripting and custom firmware are unaffected. **Power it on the day it arrives.**
+**Arrived by 2026-09-11:** ESC + charger (PNQ25YZPH) and the AiXun soldering station — which was **defective on arrival and is being returned**. A YIHUA 939D+ (75W, half the price) is ordered as the replacement. **The YIHUA iron arrived 09-19 — build started the same day.** Last box in transit: the **SkyStars H743 HD FC** ($80.99, ordered 09-19, ETA Sep 22–25) — which replaces the cancelled Matek. Same brand as the KO60II ESC, so the 8-pin harness should match; official ArduPilot (`SkystarsH7HD`), Betaflight and INAV targets, same STM32H743 with 2 MB flash, so Lua scripting and custom firmware are unaffected. **Power it on the day it arrives.**
 
 **YIHUA 939D+ note:** 75W is enough, but the ESC battery pads and 12 AWG XT60 joints will be slow — use the largest chisel tip at max temperature (896 °F / 480 °C top end) and let the joint come up to heat.
 
