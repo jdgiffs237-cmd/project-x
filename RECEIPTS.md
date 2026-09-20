@@ -52,7 +52,7 @@ One row per order, newest first. `Order #` blank = fill from confirmation email.
 - **Motor screw length vs. the frame's 6 mm arms:** ~arm thickness + 5 mm. Too long kills the motor; too short loses one in flight. The M3×10/12/14 in the frame kit are standoff hardware, not motor screws.
 - **FC ↔ ESC pinout:** different brands; 8-pin JST-SH pin *order* is not standard. Compare diagrams, continuity-check, first power-up through the smoke stopper.
 - **ESC box may include a capacitor and XT60 lead** — duplicates of the Amazon ones; keep as spares.
-- **Battery:** don't charge until the charger and LiPo bag arrive; store in the bag from the first charge.
+- **Battery:** ~~don't charge until the charger and LiPo bag arrive~~ — **both arrived; first charge done 2026-09-20.** Measured 22.80 V at the XT60, cells within 13 mV. Procedure and pack log now live in [WI-02.5](Project%20One%20-%20Standard%20Drone/Routing/WI-02.5-first-charge-and-battery-handling.md). Store in the bag between sessions, at 22.8 V.
 - **MEPS King** didn't state shipping origin — watch for a customs charge on delivery; add it here if billed.
 - **RMRC** tax not quoted at checkout — update the total from the email.
 - **Flash Betaflight first** on the H743 for a known-good baseline before ArduPilot/INAV.

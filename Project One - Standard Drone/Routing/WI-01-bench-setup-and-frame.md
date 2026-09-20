@@ -29,6 +29,8 @@ The AiXun sat in its box and cost a week. Not this time.
    part goes on the aircraft, other becomes the spare.
 3. Battery: with the multimeter, measure pack voltage at the XT60.
    CHECK: ~22.2–22.8 V (storage charge). Back in the bag.
+   **PASSED 2026-09-20 — 22.80 V, cells within 13 mV.** Charging procedure is
+   [WI-02.5](WI-02.5-first-charge-and-battery-handling.md).
 
 ### Op 30 — Assemble the frame (45 min)
 
@@ -48,8 +50,17 @@ The AiXun sat in its box and cost a week. Not this time.
    hole depth. Pick screws from the assortment. CHECK: screw tip sits at least
    1 mm short of the hole bottom when test-fitted through the arm.
 3. Safety glasses on. Mount all 4 motors, blue Loctite, cross-pattern snug.
+   Dab the Loctite onto a paper towel and **dip the screw threads** rather than
+   squeezing it into the motor's blind hole — it can't wick down onto the
+   windings that way, and the excess stays off the bell.
 4. CHECK: each motor spins by hand freely, no scraping, no wobble.
 5. Do **not** trim motor wires yet — final length depends on ESC placement (WI-02).
+
+**Photos:** [threadlocker dip](images/wi01-threadlocker-dip.jpg) ·
+motor mounted on the arm [1](images/wi01-motor-mounted-01.jpg)
+[2](images/wi01-motor-mounted-02.jpg)
+[3](images/wi01-motor-mounted-03.jpg)
+[4](images/wi01-motor-mounted-04.jpg)
 
 ### Op 50 — Stage the ESC (15 min)
 
