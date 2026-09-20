@@ -1,46 +1,14 @@
 # build-log/
 
-**Append-only history of what actually happened.** One file per session: `YYYY-MM-DD-short-description.md`.
+The raw, same-day record of what actually happened at the bench — one file
+per build day. Append-only: write it the evening it happens, mistakes
+included, and never edit history. The blog posts in [blog/_posts/](../blog/_posts/)
+are the edited, public version of this material; this folder is the source.
 
-This is deliberately separate from [brainstorming/](../brainstorming/). Brainstorming is a plan and gets revised. This is a record and doesn't. When something stops working, the build log is the only artifact that can tell you what changed since it last worked.
+Format: `YYYY-MM-DD-day-NN.md`. Keep it fast to write — bullets are fine.
+What got done, what went wrong, what was redone, what surprised you, and
+what the next session starts with.
 
-## Why bother
-
-- **Debugging.** "It worked yesterday" is only useful if you know what you did yesterday.
-- **Asking for help.** Forums and Discords give dramatically better answers to someone who can say exactly what they did, in what order, with photos.
-- **Not repeating mistakes.** You will make the same soldering mistake twice unless you wrote it down the first time.
-
-## Entry template
-
-```markdown
-# YYYY-MM-DD — <what this session was about>
-
-**Time spent:** ___
-**Goal for this session:** ___
-
-## What I did
--
-
-## What went wrong
--
-
-## What I learned
--
-
-## Photos
-- `2026-08-16-esc-solder-joints.jpg`
-
-## Parts consumed / damaged
--
-
-## Next session
--
-```
-
-## Rules
-
-- Write the entry **the same day**, while it's fresh. A vague entry beats no entry.
-- Record failures in more detail than successes — they're worth more later.
-- Photograph anything before you cover it up or glue it down.
-- If you fixed something, write down *what the fix was*, not just that it's fixed.
-- Never edit a past entry to make it look better. Append a correction instead.
+| Day | Date | What happened |
+|---|---|---|
+| [01](2026-09-20-day-01.md) | 2026-09-20 | First soldering day — powertrain onto the ESC |

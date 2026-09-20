@@ -27,7 +27,7 @@
 
 ## Soldering queue — GO (iron arrived Sep 19)
 
-Step-by-step work instructions live in [Routing/](Routing/) — start with WI-01.
+Step-by-step work instructions live in [Routing/](Routing/). Today's interactive checklist: **Build Day 1** — https://claude.ai/artifact/4GPMzLcXZW3vpemujTUTYw. Daily record: [build-log/](../build-log/).
 
 The FC connects to the ESC by a plug-in cable, so none of these joints wait on it:
 

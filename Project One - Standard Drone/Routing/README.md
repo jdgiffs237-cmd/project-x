@@ -10,8 +10,8 @@ leaving the aircraft in an unknown condition.
 
 | WI | Title | Needs | Status |
 |---|---|---|---|
-| [WI-01](WI-01-bench-setup-and-frame.md) | Bench setup, frame assembly, motor mounting | No FC | in progress |
-| [WI-02](WI-02-esc-soldering.md) | ESC soldering — motors, XT60, capacitor | No FC | not started |
+| [WI-01](WI-01-bench-setup-and-frame.md) | Bench setup, frame assembly, motor mounting | No FC | frame + iron done Sep 19–20; Ops 20/40 checks on the Day 1 page |
+| [WI-02](WI-02-esc-soldering.md) | ESC soldering — motors, XT60, capacitor | No FC | **today (Sep 20)** |
 | WI-03 | FC install, pinout verification, first power-up | **FC** | blocked on delivery |
 | WI-04 | Betaflight setup → bench-alive | FC | not started |
 
