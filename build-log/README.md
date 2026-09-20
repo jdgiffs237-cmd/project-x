@@ -11,4 +11,4 @@ what the next session starts with.
 
 | Day | Date | What happened |
 |---|---|---|
-| [01](2026-09-20-day-01.md) | 2026-09-20 | First soldering day — powertrain onto the ESC |
+| [01](2026-09-20-day-01.md) | 2026-09-20 | Motors mounted, software installed, battery charged — soldering deferred until after technique videos |
