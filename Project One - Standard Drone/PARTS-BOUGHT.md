@@ -1,6 +1,6 @@
 # Parts Bought — Project One
 
-**Total spent: $936.19** *(refunds pending: $135.68 AiXun return + $125.99 Matek cancellation → ~$674.52 net)*
+**Total spent: ~$956.19** *(refunds pending: $135.68 AiXun return + $125.99 Matek cancellation → ~$674.52 net)*
 
 **Phase 1 purchasing is complete — every bench-alive part is bought.**
 
@@ -22,6 +22,7 @@
 | 2026-08-29 | ~~Matek H743-Slim V4 flight controller~~ **cancelled — refund pending** | 1 | $125.99 | $125.99 | MEPS King |
 | 2026-09-11 | YIHUA 939D+ digital soldering station, 75W | 1 | $57.23 | $57.23 | Amazon |
 | 2026-09-19 | SkyStars H743 HD flight controller, 30×30, single gyro | 1 | $80.99 | $80.99 | Amazon (GetFPV) |
+| 2026-09-21 | Kaisiking helping-hands station with magnifier | 1 | ~$20.00 | ~$20.00 | Amazon |
 
 ---
 

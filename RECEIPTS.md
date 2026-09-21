@@ -9,14 +9,14 @@
 
 | | |
 |---|---|
-| **Spent to date** | **$936.19** |
+| **Spent to date** | **~$956.19** *(helping hands logged at ~$20 — confirm exact from email)* |
 | Refunds received | −$0.00 *($261.67 pending: $135.68 AiXun return + $125.99 Matek cancellation)* |
-| **Remaining against ceiling** | **$9,063.81** *($9,325.48 once both refunds land; net spend then ~$674.52)* |
+| **Remaining against ceiling** | **~$9,043.81** *(~$9,305 once both refunds land; net spend then ~$695)* |
 
 | Bucket | Spent | Planned |
 |---|---|---|
 | Aircraft | $398.27 *(drops to $272.28 when the Matek refund lands)* | — |
-| Tools & consumables | $479.47 | $300 (**−$179 over**; drops to ~$344 when the AiXun refund lands) |
+| Tools & consumables | ~$499.47 | $300 (**−$179 over**; drops to ~$344 when the AiXun refund lands) |
 | Shipping & tax | $58.45 | — |
 | Ground equip / crash fund / software | $0.00 | $1,000 / $2,000 / — |
 
@@ -30,6 +30,7 @@ One row per order, newest first. `Order #` blank = fill from confirmation email.
 |---|---|---|---|---|---|---|---|
 | 08-29 | MEPS King | ~~Matek H743-Slim V4 FC~~ ×1 | $125.99 | free / — | **$125.99** | | **CANCELLING — refund pending** |
 | 09-19 | Amazon (sold by GetFPV) | SkyStars H743 HD FC, 30×30, single gyro ×1 | $80.99 | free / — | **$80.99** | *(fill from email)* | ordered, ETA 09-22–25 |
+| 09-21 | Amazon | Kaisiking helping-hands soldering station with magnifying glass ×1 | — | — | **~$20.00** *(confirm)* | *(fill from email)* | ordered, arrives 09-22 |
 | 08-29 | RaceDayQuads | Skystars KO60II 60A AM32 4-in-1 ESC ×1 ($58.49); HOTA D6 Pro 325W charger ×1 ($149.99) | $208.48 | free / $12.51 | **$220.99** | PNQ25YZPH | **arrived** |
 | 08-29 | Amazon | ~~AiXun T3A 200W soldering station~~ ×1 | $128.00 | free / $7.68 | **$135.68** | 112-5817558-1657853 | **DEFECTIVE — returning** |
 | 09-11 | Amazon | YIHUA 939D+ digital soldering station, 75W, 200–480 °C, ESD-safe ×1 | — | — | **$57.23** | *(fill from email)* | **arrived 09-19** |

@@ -10,7 +10,7 @@
 |---|---|
 | Parts bought | **20 / 20 — done** |
 | Arrived | Everything except the FC — **build started 2026-09-19** |
-| Spent | **$936.19** (9 orders; $261.67 in refunds pending — AiXun + Matek) |
+| Spent | **~$956.19** (10 orders; $261.67 in refunds pending — AiXun + Matek) |
 | Waiting on | **SkyStars H743 HD FC only** (ETA Sep 22–25) |
 
 ## What's where

@@ -11,4 +11,5 @@ what the next session starts with.
 
 | Day | Date | What happened |
 |---|---|---|
+| [02](2026-09-21-day-02.md) | 2026-09-21 | Soldering day — practice, then WI-02 |
 | [01](2026-09-20-day-01.md) | 2026-09-20 | Motors mounted, software installed, battery charged — soldering deferred until after technique videos |
