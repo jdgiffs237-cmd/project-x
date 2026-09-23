@@ -5,11 +5,11 @@
 | **Status** | **In progress** — started 2026-09-21 |
 | **Needs** | WI-01 complete. **Not** the flight controller — it connects to the ESC by a plug-in cable, so none of these joints wait on it. |
 | **Battery** | **None in this WI.** First power-up is WI-03, through the smoke stopper, after the pinout check. |
-| **Time** | ~2 h 30 min across three operations — 14 joints total |
+| **Time** | ~2 h 40 min across three operations — 14 joints total |
 
 One slide per step, one photo, one check. **Next ▶** at the bottom of each
-slide, or jump in from the deck list. PowerPoint / Google Slides version:
-[WI-02-esc-soldering.pptx](WI-02-esc-soldering.pptx).
+slide, or jump in from the deck list. Slide deck of the whole build:
+[Project-One-Build-Walkthrough.pptx](Project-One-Build-Walkthrough.pptx).
 
 ## Deck
 
@@ -55,19 +55,21 @@ bench today.
 
 ## Slide 2: Trim, strip, and tin the motor wires
 
-*Op 10 · 20 min*
+*Op 10 · 30 min*
 
-<!-- photo: images/wi-02/02-trim-strip-tin-wires.jpg -->
+<img src="images/wi-02/02-esc-staged-wires-routed.jpg" width="480" alt="Skystars KO60II ESC dry-fitted on the stack standoffs, motor wires from all four arms routed toward it">
 
-**Do** — for all twelve motor wires:
+**Do**
 
-1. Cut at the tape mark from WI-01, slide 14.
-2. Strip **~2 mm** of insulation.
-3. Flux the bare end and tin it — iron under, solder on top, until the strands
-   wick full.
+1. Dry-fit the ESC on the stack standoffs, **arrow / battery pads facing the
+   rear** of the aircraft. Route each motor's three wires to its corner.
+2. Cut each wire so it reaches its pads with a little slack and crosses no
+   prop line. Strip **~2 mm** of insulation.
+3. Flux each bare end and tin it — iron under, solder on top, until the
+   strands wick full. Twelve wires.
 
-**Check:** each tinned end is a smooth silver cylinder, not a blob, and no
-stray strands stick out.
+**Check:** every wire reaches its pads with slack to spare; each tinned end is
+a smooth silver cylinder, not a blob, with no stray strands.
 
 <sub>[◀ Prev](#slide-1-tools--parts-on-the-bench) · [Deck](#deck) · [Next ▶](#slide-3-tin-the-twelve-esc-motor-pads)</sub>
 

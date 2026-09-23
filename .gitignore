@@ -15,3 +15,6 @@ blog/vendor/
 
 # Work-instruction photo inbox: phone originals dropped here, imported into WorkInstructions/images/ by tools/import-photo.py
 Project One - Standard Drone/WorkInstructions/Pictures/
+
+# Python
+__pycache__/

@@ -25,7 +25,7 @@ walkthrough with a check at every step.
 | Document | What it is |
 |---|---|
 | [00-BUILD-TRACKER.md](Project%20One%20-%20Standard%20Drone/00-BUILD-TRACKER.md) | Where the build stands right now — what's arrived, what's next, what's waiting |
-| [WorkInstructions/](Project%20One%20-%20Standard%20Drone/WorkInstructions/) | **The work instructions.** WI-01 bench & frame, WI-02 ESC soldering — each a slide-by-slide photo walkthrough with checks, readable on GitHub and generated as a PowerPoint deck from the same source |
+| [WorkInstructions/](Project%20One%20-%20Standard%20Drone/WorkInstructions/) | **The work instructions.** WI-01 bench & frame, WI-02 ESC soldering — each a slide-by-slide photo walkthrough with checks, readable on GitHub — plus one Google Slides deck of the whole build |
 | [BOM.md](Project%20One%20-%20Standard%20Drone/BOM.md) | The phased bill of materials — bench-alive, then flight, then FPV — and why it's phased that way |
 | [SHOPPING-LIST-PHASE-1.md](Project%20One%20-%20Standard%20Drone/SHOPPING-LIST-PHASE-1.md) | The Phase 1 buy as it was placed, with the four things most likely to bite |
 | [PARTS-BOUGHT.md](Project%20One%20-%20Standard%20Drone/PARTS-BOUGHT.md) | Every part, date, price, and vendor — including the two that went back |
@@ -39,12 +39,13 @@ walkthrough with a check at every step.
 Project X/
 ├── Project One - Standard Drone/   ← THE BUILD — start here
 │   ├── 00-BUILD-TRACKER.md         ← live status
-│   ├── WorkInstructions/           ← one slide deck per WI (markdown + .pptx)
+│   ├── WorkInstructions/           ← the procedure: markdown per WI + one slide deck
 │   │   ├── README.md
-│   │   ├── WI-01-bench-setup-and-frame.md   + .pptx
-│   │   ├── WI-02-esc-soldering.md           + .pptx
+│   │   ├── WI-01-bench-setup-and-frame.md
+│   │   ├── WI-02-esc-soldering.md
 │   │   ├── images/wi-NN/           ← photos, one folder per WI
-│   │   └── tools/build-decks.py    ← markdown → PowerPoint
+│   │   ├── Project-One-Build-Walkthrough.pptx  ← the slide deck (Google Slides)
+│   │   └── tools/                  ← photo import helpers
 │   ├── BOM.md                      ← phased bill of materials
 │   ├── SHOPPING-LIST-PHASE-1.md
 │   └── PARTS-BOUGHT.md
