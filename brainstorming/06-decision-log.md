@@ -62,7 +62,7 @@
 - **Consequences:** Commits to bench-testing with props off as the Phase 1 completion criterion. Defers FAA registration and Remote ID until Phase 2, since neither attaches to an indoor propless bench. Leaves a skill gap at the end of Phase 1 — a flyable aircraft and no stick time — mitigated by a whoop + simulator (~$120) bought during Phase 1, per [04-budget.md](04-budget.md) Stage 0.
 - **Cost impact:** $0 net; re-sequences roughly $400–700 of FPV spend to later
 - **Reversible?** Cheaply — phases can be collapsed by placing one order
-- **Related:** [Project One BOM](../Project%20One%20-%20Standard%20Drone/BOM%20Claude.md), Stage 0 in [04-budget.md](04-budget.md)
+- **Related:** [Project One BOM](../Project%20One%20-%20Standard%20Drone/BOM.md), Stage 0 in [04-budget.md](04-budget.md)
 
 ---
 

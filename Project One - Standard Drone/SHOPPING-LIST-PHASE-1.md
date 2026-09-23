@@ -11,14 +11,26 @@ Live tracker: [00-BUILD-TRACKER.md](00-BUILD-TRACKER.md)
 |---|---|---|---|
 | Frame | TBS Source One V6, 5" | $42.53 | RMRC |
 | Motors ×4 | EMAX ECO II 2207 1900KV | $60.95 | EMAX USA |
-| Flight controller | Matek H743-Slim V4 | $125.99 | MEPS King |
+| Flight controller | ~~Matek H743-Slim V4~~ → **SkyStars H743 HD** (see below) | ~~$125.99~~ $80.99 | ~~MEPS King~~ Amazon / GetFPV |
 | ESC | Skystars KO60II 60A AM32 | $58.49 | RaceDayQuads |
 | Battery | GNB 6S 1530 mAh 160C | $58.92 | RaceDayQuads |
 | Charger | HOTA D6 Pro 325W | $149.99 | RaceDayQuads |
-| Soldering station | AiXun T3A 200W (T12 handle) | $135.68 | Amazon |
+| Soldering station | ~~AiXun T3A 200W~~ → **YIHUA 939D+ 75W** (see below) | ~~$135.68~~ $57.23 | Amazon |
 | 13 tools + consumables | cap, XT60, solder, flux, wick, smoke stopper, multimeter, hex drivers, screws, shrink, Loctite, LiPo bag, glasses | $152.91 | Amazon |
 
 Shipping and tax are included above. Order numbers: [RECEIPTS.md](../RECEIPTS.md).
+
+## Two parts were swapped after the order
+
+- **Soldering station:** the AiXun T3A was defective on arrival (Sep 11) and
+  went back. Replaced with a YIHUA 939D+ — 75 W, less than half the price,
+  enough for the job with the largest chisel tip at max temperature.
+- **Flight controller:** the Matek H743 sat stuck in transit with an
+  unresponsive vendor and was cancelled (Sep 19). Replaced with a SkyStars H743
+  HD — same STM32H743 with 2 MB flash, so ArduPilot scripting is unaffected,
+  and the same brand as the ESC, so the 8-pin harness should match.
+
+Both refunds are pending; the current picture is in [PARTS-BOUGHT.md](PARTS-BOUGHT.md).
 
 ## Free software
 
@@ -42,4 +54,4 @@ Shipping and tax are included above. Order numbers: [RECEIPTS.md](../RECEIPTS.md
 
 ## Not needed for Phase 1
 
-Radio, receiver, props, GPS, goggles, camera, FAA stuff. See [BOM Claude.md](BOM%20Claude.md).
+Radio, receiver, props, GPS, goggles, camera, FAA stuff. See [BOM.md](BOM.md).

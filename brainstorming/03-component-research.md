@@ -132,7 +132,7 @@ Transmitter (the thing in your hands) + receiver (on the drone). Protocols: **EL
 - **Digital (DJI / HDZero / Walksnail)** — much better image, more money, ecosystem lock-in.
 - **None** — if flying line-of-sight or autonomously.
 
-**Candidates:** deferred to Phase 3 — see [BOM](../Project%20One%20-%20Standard%20Drone/BOM%20Claude.md). Deliberately undecided: analog vs. digital is the most expensive reversible-only-by-rebuying choice in the project, and nothing about building the airframe depends on it.
+**Candidates:** deferred to Phase 3 — see [BOM](../Project%20One%20-%20Standard%20Drone/BOM.md). Deliberately undecided: analog vs. digital is the most expensive reversible-only-by-rebuying choice in the project, and nothing about building the airframe depends on it.
 
 ---
 

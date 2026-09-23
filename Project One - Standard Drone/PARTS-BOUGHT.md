@@ -1,6 +1,6 @@
 # Parts Bought — Project One
 
-**Total spent: ~$956.19** *(refunds pending: $135.68 AiXun return + $125.99 Matek cancellation → ~$674.52 net)*
+**Total spent: ~$956.19** *(refunds pending: $135.68 AiXun return + $125.99 Matek cancellation → ~$694.52 net)*
 
 **Phase 1 purchasing is complete — every bench-alive part is bought.**
 

@@ -43,8 +43,10 @@ Things I intend to write about:
 
 ## Where it stands
 
-Design stage. No hardware purchased, no airframe locked. The survey work is
-done; the mission definition is not.
+Building. The first aircraft — a 5" quad, hand-wired, Betaflight — is on the
+bench: frame assembled, motors mounted, ESC being soldered, flight controller
+in transit. The milestone in sight is *bench alive*: motors spinning on
+command, props off, before anything leaves the ground.
 
 ## Get in touch
 
