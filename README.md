@@ -15,7 +15,7 @@ walkthrough with a check at every step.
 
 | | |
 |---|---|
-| **Status** | **At the bench — Day 2.** Frame assembled, four motors mounted, ESC soldering under way. Flight controller in transit (ETA Sep 22–25). |
+| **Status** | **At the bench — Day 3.** Flight controller arrived Oct 11 and is flashed with Betaflight 2026.6.2; on the battery it reads 24.5 V through the stack. Next: finish the audit, then spin the motors. |
 | **Airframe** | TBS Source One V6 · EMAX ECO II 2207 1900KV ×4 · Skystars KO60II 60A AM32 ESC · SkyStars H743 HD FC · GNB 6S 1530 mAh |
 | **Milestone in sight** | *Bench alive* — motors spin on command, props off, before a single flight |
 | **Spent** | ~$956 across 10 orders · ~$695 net once two refunds land (a defective iron, a stuck-in-transit FC) |

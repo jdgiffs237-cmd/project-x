@@ -27,6 +27,8 @@ Only if the project grows past off-the-shelf. Candidates:
 - Custom sensor or peripheral integration
 - Autonomy: waypoint logic, computer vision, tracking
 
+> **Bench firmware track (added 2026-10-11):** writing your own code for the SkyStars H743 starts at Bench alive, on the bench, props off: blink an LED → USB "hello" → read the BMI270 → spin one motor with DShot. Betaflight goes back on after every rung. The steps are on the [roadmap](https://claude.ai/artifact/TSb7eo9mAvQgAtfM15WNNo#s8). Flight test 1 is on standard Betaflight. **Flight test 2 is on this firmware**, after five more rungs: read the radio, estimate attitude, PID and mixer, a safety layer, and props-on tuning on a single-axis rig.
+>
 > Realistically: don't write flight-critical firmware for a first build. Off-the-shelf firmware represents thousands of hours of debugging by people who crashed so you don't have to. The interesting custom work happens *on top of* it, usually on a companion computer talking MAVLink.
 
 ### `tools/` — Small utilities

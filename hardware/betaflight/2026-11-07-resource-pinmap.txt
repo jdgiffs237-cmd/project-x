@@ -1,0 +1,80 @@
+# Betaflight `resource` — pin map
+# Board: SkyStars H743 HD (SKYSTARSH7HD) · Betaflight 2026.6.2 · captured 2026-11-07
+# Each line is: resource <job> <index> <chip pin>. "B03" means port B, pin 3,
+# written PB3 in ST's datasheets and in STM32CubeIDE.
+# Transcribed from a screenshot of the CLI output.
+
+resource BEEPER 1 B03
+resource MOTOR 1 B00
+resource MOTOR 2 B01
+resource MOTOR 3 D12
+resource MOTOR 4 D13
+resource MOTOR 5 A00
+resource MOTOR 6 A01
+resource MOTOR 7 A02
+resource MOTOR 8 A03
+resource LED_STRIP 1 A08
+resource SERIAL_TX 1 A09
+resource SERIAL_TX 2 D05
+resource SERIAL_TX 3 D08
+resource SERIAL_TX 4 D01
+resource SERIAL_TX 5 B06
+resource SERIAL_TX 6 C06
+resource SERIAL_TX 7 E08
+resource SERIAL_TX 8 E01
+resource SERIAL_RX 1 A10
+resource SERIAL_RX 2 D06
+resource SERIAL_RX 3 D09
+resource SERIAL_RX 4 D00
+resource SERIAL_RX 5 B05
+resource SERIAL_RX 6 C07
+resource SERIAL_RX 7 E07
+resource SERIAL_RX 8 E00
+resource I2C_SCL 1 B08
+resource I2C_SCL 2 B10
+resource I2C_SDA 1 B09
+resource I2C_SDA 2 B11
+resource LED 1 E03
+resource LED 2 E04
+resource SPI_SCK 1 A05
+resource SPI_SCK 2 B13
+resource SPI_SCK 3 C10
+resource SPI_SCK 4 E12
+resource SPI_SDI 1 A06
+resource SPI_SDI 2 B14
+resource SPI_SDI 3 C11
+resource SPI_SDI 4 E13
+resource SPI_SDO 1 D07
+resource SPI_SDO 2 B15
+resource SPI_SDO 3 C12
+resource SPI_SDO 4 E14
+resource ADC_BATT 1 C00
+resource ADC_RSSI 1 C03
+resource ADC_CURR 1 C01
+resource ADC_EXT 1 C04
+resource PINIO 1 C05
+resource PINIO 2 C02
+resource PINIO 3 D11
+resource FLASH_CS 1 A15
+resource GYRO_EXTI 1 B02
+resource GYRO_EXTI 2 E15
+resource GYRO_CS 1 C15
+resource GYRO_CS 2 E11
+resource USB_DETECT 1 E02
+
+# ---------------------------------------------------------------------------
+# What the firmware rungs use
+#
+# Rung 1 · blink an LED      LED 1 = PE3   (LED 2 = PE4)
+# Rung 2 · USB "hello"       USB uses PA11/PA12 (fixed on every STM32H743);
+#                            USB_DETECT = PE2 senses when a cable is plugged in
+# Rung 3 · read the BMI270   the active gyro is slot 2 (diff all: gyro_1_enabled = OFF)
+#                            chip select  GYRO_CS 2   = PE11
+#                            data-ready   GYRO_EXTI 2 = PE15
+#                            bus: very likely SPI4 (SCK PE12 · SDI/MISO PE13 · SDO/MOSI PE14),
+#                            same port E block. Unconfirmed: check with CLI `get gyro_2_spibus`
+# Rung 4 · DShot to motor 1  MOTOR 1 = PB0. DShot also needs the timer and DMA
+#                            channel behind that pin: CLI `timer` and `dma` show them
+# Rung 5 · radio (CRSF)      the receiver goes on a UART; pick one and its TX/RX pair above
+# Battery voltage / current  ADC_BATT = PC0 · ADC_CURR = PC1
+# Buzzer                     BEEPER = PB3

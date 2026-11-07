@@ -1,0 +1,59 @@
+# Betaflight `diff all` — clean baseline
+# Board: SkyStars H743 HD (SKYSTARSH7HD) · Betaflight 2026.6.2
+# Saved 2026-11-07: after flashing and accelerometer calibration, before any
+# motor, receiver or PID setup. To restore: CLI tab, paste everything below, Enter.
+
+defaults nosave
+
+board_name SKYSTARSH7HD
+manufacturer_id SKST
+mcu_id 004800463333510e30343731
+signature
+
+# feature
+feature TELEMETRY
+feature LED_STRIP
+feature OSD
+
+# master
+set gyro_enabled_bitmask = 2
+set gyro_1_enabled = OFF
+set acc_calibration = 87,-44,29,1
+
+profile 0
+
+profile 1
+
+profile 2
+
+profile 3
+
+# restore original profile selection
+profile 0
+
+rateprofile 0
+
+rateprofile 1
+
+rateprofile 2
+
+rateprofile 3
+
+battery_profile 0
+
+# battery_profile 0
+set battery_profile_name = FPV 1 26
+set bat_capacity = 1530
+
+battery_profile 1
+
+battery_profile 2
+
+# restore original rateprofile selection
+rateprofile 0
+
+# restore original battery_profile selection
+battery_profile 0
+
+# save configuration
+save

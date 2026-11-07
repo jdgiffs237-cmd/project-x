@@ -22,7 +22,7 @@ in two forms:
 |---|---|---|---|---|
 | [WI-01](WI-01-bench-setup-and-frame.md) | Bench setup, frame assembly, motor mounting | 11 | No FC | **Complete — 2026-09-20** |
 | [WI-02](WI-02-esc-soldering.md) | ESC soldering — motors, XT60, capacitor | 11 | No FC | **In progress** — started 2026-09-21 |
-| WI-03 | FC install, pinout verification, first power-up | — | **FC** | Blocked on delivery (ETA Sep 22–25) |
+| WI-03 | FC install, pinout verification, first power-up | — | **FC** | **Unblocked** — FC arrived 2026-10-11; battery reads 24.5 V through the stack. WI doc not written yet; steps live on the roadmap |
 | WI-04 | Betaflight setup → bench-alive | — | FC | Not started |
 
 ## How a slide is built
